@@ -1,4 +1,4 @@
-package com.axon.query.event.listener;
+package com.axon.event.listener;
 
 import com.axon.event.AccountAddressChangeEvent;
 import com.axon.query.repository.AccountViewRepository;

@@ -1,4 +1,4 @@
-package com.axon.com.axon.command;
+package com.axon.command;
 
 public class AccountOpenCommand {
 

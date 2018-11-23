@@ -1,7 +1,7 @@
-package com.axon.com.axon.command.com.axon.command.handler;
+package com.axon.command.handler;
 
 import com.axon.aggregate.Account;
-import com.axon.com.axon.command.AccountOpenCommand;
+import com.axon.command.AccountOpenCommand;
 import org.axonframework.commandhandling.annotation.CommandHandler;
 import org.axonframework.repository.Repository;
 import org.springframework.beans.factory.annotation.Autowired;

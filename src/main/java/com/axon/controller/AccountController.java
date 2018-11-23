@@ -1,7 +1,7 @@
 package com.axon.controller;
 
-import com.axon.com.axon.command.AccountAddressChangeCommand;
-import com.axon.com.axon.command.AccountOpenCommand;
+import com.axon.command.AccountAddressChangeCommand;
+import com.axon.command.AccountOpenCommand;
 import com.axon.query.repository.AccountViewRepository;
 import com.axon.query.view.AccountView;
 import org.axonframework.commandhandling.gateway.CommandGateway;

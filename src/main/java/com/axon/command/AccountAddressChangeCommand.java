@@ -1,6 +1,4 @@
-package com.axon.com.axon.command;
-
-import org.axonframework.commandhandling.annotation.TargetAggregateIdentifier;
+package com.axon.command;
 
 public class AccountAddressChangeCommand {
 

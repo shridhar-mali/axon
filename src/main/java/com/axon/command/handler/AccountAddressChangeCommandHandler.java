@@ -1,15 +1,11 @@
-package com.axon.com.axon.command.com.axon.command.handler;
+package com.axon.command.handler;
 
         import com.axon.aggregate.Account;
-        import com.axon.com.axon.command.AccountAddressChangeCommand;
-        import com.axon.com.axon.command.AccountOpenCommand;
-        import com.axon.event.AccountAddressChangeEvent;
+        import com.axon.command.AccountAddressChangeCommand;
         import org.axonframework.commandhandling.annotation.CommandHandler;
         import org.axonframework.repository.Repository;
         import org.springframework.beans.factory.annotation.Autowired;
         import org.springframework.stereotype.Component;
-
-        import java.util.UUID;
 
 @Component
 public class AccountAddressChangeCommandHandler {
